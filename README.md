@@ -14,7 +14,7 @@
 </code></pre>
 
 ### 2. 배경 이미지 리소스 변경
-배경 이미지는 [다콩 트게더](https://tgd.kr/dakong_)을 참조했음. 아래 속성의 세 이미지 링크를 변경할 수 있음.
+배경 이미지는 [다콩 트게더](https://tgd.kr/dakong_)를 참조했음. 아래 속성의 세 이미지 링크를 변경할 수 있음.
 <pre><code>
 body {
 	background: url('../res/img/1.png'), url('../res/img/2.png'), url('../res/img/3.png'), #FFFFFF;
