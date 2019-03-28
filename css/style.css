@@ -10,7 +10,7 @@ html {
 }
 
 body {
-	background: url('../res/img/1.png'), url('../res/img/2.png'), url('../res/img/3.png'), #FFFFFF;
+	background: url('https://hiphil2000.github.io/WoouTGD/res/img/1.png'), url('https://hiphil2000.github.io/WoouTGD/res/img/2.png'), url('https://hiphil2000.github.io/WoouTGD/res/img/3.png'), #FFFFFF;
 	animation: background 20s linear infinite;
 }
 
