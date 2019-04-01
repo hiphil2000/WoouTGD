@@ -1,9 +1,10 @@
-:root {
+/* 사용한 색상, :root를 트게더에서 사용 불가능. */
+/* :root {
 	--primary-color: #ff6b6b;
 	--secondary-color: #ffbebe;
 	--component-color: transparent;
 	--component-secondary-color: #ffeeee;
-}
+} */
 
 html {
 	height: auto !important;
@@ -20,41 +21,41 @@ body {
 	}
 
 	header #header-bar #header-top-notice strong.notice-badge {
-		background-color: var(--primary-color);
+		background-color: #ff6b6b;
 	}
 	header #right-search-form>input[type=text] {
-		border-color: var(--primary-color);
+		border-color: #ff6b6b;
 	}
 
 	header #right-search-form>#right-search-btn {
-		color: var(--primary-color);
+		color: #ff6b6b;
 	}
 
 	
 
 /* 좌측 메뉴 */
 	#main .menu-wrapper {
-		border: 1px solid var(--primary-color);
+		border: 1px solid #ff6b6b;
 		border-radius: 15px;
 		overflow: hidden
 	}
 
 	#main .menu-wrapper>.header {
-		background-color: var(--primary-color);
+		background-color: #ff6b6b;
 	}
 
 	#main .menu-wrapper>a>i.fa.fa-square, #main .menu-wrapper>a>em {
-		color: var(--secondary-color);
+		color: #ffbebe;
 	}
 
 	#main .menu-wrapper .spacer {
-		background-color: var(--secondary-color);
+		background-color: #ffbebe;
 	}
 
 
 /* 헤더 */
 	header #header-bar>.row {
-		border-top: 5px solid var(--primary-color);
+		border-top: 5px solid #ff6b6b;
 	}
 
 	#board-info {
@@ -63,7 +64,7 @@ body {
 	}
 
 	#board-info h1 {
-		border-bottom-color: var(--secondary-color);
+		border-bottom-color: #ffbebe;
 	}
 
 	#board-info h1, #board-info #board-info-bottom {
@@ -88,14 +89,14 @@ body {
 	}
 
 	#article-list #article-list-category {
-		border-top: 2px solid var(--primary-color);
-		background: var(--component-color);
+		border-top: 2px solid #ff6b6b;
+		background: transparent;
 	}
 
 	/* 카테고리 스타일 변경 */
 	#article-list #article-list-category>a, #article-list #article-list-category > a.active {
-		background: var(--component-color);
-		border: 2px solid var(--primary-color);
+		background: transparent;
+		border: 2px solid #ff6b6b;
 		border-top: none;
 		border-bottom-left-radius: 100%;
 		border-bottom-right-radius: 100%;
@@ -104,13 +105,13 @@ body {
 
 	/* 활성화된 카테고리만 secondary로 */
 	#article-list #article-list-category > a.active {
-		border-color: var(--secondary-color);
+		border-color: #ffbebe;
 	}
 
 	/* 테이블 스타일 변경  */
 	#article-list>.article-list-row, #article-list>.article-list-row.notice {
 		background: #ffffff;
-		border: 2px solid var(--secondary-color);
+		border: 2px solid #ffbebe;
 		border-radius: 15px;
 		margin-bottom: 4px;
 	}
@@ -122,12 +123,12 @@ body {
 
 	/* 공지글 */
 	#article-list>.article-list-row.notice {
-		border-color: var(--primary-color);
+		border-color: #ff6b6b;
 	}
 
 	/* 인기글 */
 	#article-list>.article-list-row.hot {
-		background-color: var(--component-secondary-color)
+		background-color: #ffeeee
 	}
 
 	/* 컨텐츠 프레임 보더 제거 */
@@ -137,21 +138,21 @@ body {
 
 /* 푸터 */
 	#article-list #article-list-menu>.btn.write {
-		background-color: var(--primary-color);
+		background-color: #ff6b6b;
 		border: none;
 		border-radius: 15px;
 	}
 
 	#article-list #article-list-menu>.btn.best {
-		border-color: var(--primary-color);
-		color: var(--secondary-color);
+		border-color: #ff6b6b;
+		color: #ffbebe;
 		border-radius: 15px;
 	}
 
 /* 폰트 설정 */
 
 	#board-info #board-info-bottom a {
-		color: var(--secondary-color)
+		color: #ffbebe
 	}
 
 	
